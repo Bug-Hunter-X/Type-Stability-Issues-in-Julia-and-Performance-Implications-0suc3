@@ -1,0 +1,2 @@
+# Julia Type Stability Bug
+This repository demonstrates a common performance issue in Julia related to type stability.  The `bug.jl` file contains code that exhibits a performance problem because of type instability. The solution, `bugSolution.jl`, addresses the performance concern by ensuring type stability.  The example highlights the importance of understanding Julia's type system for writing efficient and predictable code. This bug is not necessarily an error in the code itself, but rather an effect of how Julia's compiler works.
